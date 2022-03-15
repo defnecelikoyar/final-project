@@ -11,3 +11,328 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+img#evil-eye {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 50px;
+}
+
+h3.about {
+  text-align: center;
+}
+
+div#about-nav {
+  /* display: flex; */
+  text-align: center;
+}
+
+div.projects {
+  /* border: 3px solid #fff; */
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* div.job {
+  display: inline-block;
+  width: 50%;
+  /* float: left; */
+  /* padding: 0px; */
+  /* border: 2px solid red; */
+  /* margin-right: 0px;
+  margin-left: 0px;
+  vertical-align: top; */
+/* } */ 
+
+div.project {
+  font-family:'Times New Roman', Times, serif;
+  /* max-width: 40%; */
+  text-align: center;
+  border-style: ridge;
+  border-color: #eb1f08dd;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* margin-right: 0px;
+  margin-left: 0px; */
+  vertical-align: top;
+  display: inline-block;
+  width: 45%;
+}
+
+div.project:hover {
+  background: #d31803dd;
+}
+
+img#project {
+  max-width: 100%;
+}
+
+img.resize {
+  width: 435px;
+  height: auto;
+}
+
+h1#project {
+  text-align: center;
+  margin-block-start: 0.67em;
+  margin-block-end: 0px;
+  margin-inline-start: 130px;
+  margin-inline-end: 130px;
+}
+
+h1#project:hover {
+  background: #da8cc9dd;
+}
+
+h3#project {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-block-start: 0px;
+  margin-block-end: 0.3em;
+  max-width: 60%;
+}
+
+h3#project:hover {
+  background: #da8cc9dd;
+}
+
+a.project {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+a.project:hover {
+  background: #da8cc9dd
+}
+
+div.jobs {
+  /* border: 3px solid #fff; */
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+h1#experience {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.5em;
+}
+
+div.job {
+  display: inline-block;
+  width: 50%;
+  /* float: left; */
+  padding: 0px;
+  /* border: 2px solid red; */
+  margin-right: 0px;
+  margin-left: 0px;
+  vertical-align: top;
+}
+
+h2.company {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.3em;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2.company:hover {
+  color:rgb(134, 63, 63);
+}
+
+h3.job-title {
+  margin-block-start: 0.1em;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p.location {
+  margin-block-start: 0.1em;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  max-width: 30%;
+}
+
+p.date {
+  margin-block-start: 0.1em;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  max-width: 50%;
+}
+
+div.job-info {
+  display: flex;
+  font-size: 15px;
+}
+
+ul.job-description {
+  list-style-type: square;
+  margin-block-start: 0.2em;
+  margin-block-end: 0px;
+  max-width: 60%;
+  padding-left: 20px;
+}
+
+li.job-description {
+  padding-top: 3px;
+  padding-bottom: 0px;
+}
+
+div.education {
+  /* border: 3px solid #fff; */
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+h1#education {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.5em;
+}
+
+div.school {
+  display: inline-block;
+  width: 50%;
+  /* float: left; */
+  padding: 0px;
+  /* border: 2px solid red; */
+  margin-right: 0px;
+  margin-left: 0px;
+  vertical-align: top;
+}
+
+h2.school {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0em;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2.school:hover {
+  color:rgb(126, 72, 72);
+}
+
+div.school-info {
+  display: flex;
+  font-size: 15px;
+}
+
+p.school-description {
+  margin-block-start: 0.2em;
+  margin-block-end: 0px;
+  max-width: 60%;
+  padding-left: 0px;
+}
+
+ul.school-description {
+  list-style-type: square;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+  max-width: 60%;
+  padding-left: 20px;
+}
+
+li.school-description {
+  padding-top: 5px;
+  padding-bottom: 0px;
+}
+
+div.skills {
+  /* border: 3px solid #fff; */
+  padding: 0px;
+  margin-right: 20px;
+  margin-block-start: 1em;
+  margin-left: 20em;
+  text-align: center;
+  float: center;
+}
+
+h1#skills {
+  margin-block-start: 0.67em;
+  margin-block-end: 0em;
+  text-align: right;
+  margin-right: 4em;
+  margin-left: 0.5em;
+}
+
+ul#skills {
+  float: right;
+  text-align: left;
+  list-style-type: square;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  max-width: 100%;
+  margin-right: 8em;
+  margin-left: 10em;
+  padding-left: 0em;
+}
+
+li.skill {
+  margin: 0 5px;
+}
+
+li.skill:hover {
+  color:rgb(128, 68, 68);
+}
+
+div#nav {
+  display: flex;
+  /* text-align: right; */
+  /* margin-right: 10px; */
+}
+
+div.insider-nav {
+  display: flex;
+}
+
+div.outsider-nav {
+  display: flex;
+}
+
+a.outsider {
+  margin-block-start: 2em;
+  margin-block-end: 0em;
+  margin-right: 0px;
+  margin-left: 8px;  
+}
+
+a.outsider:hover {
+  background: #d31803dd;
+}
+
+a.insider {
+  margin-block-start: 2em;
+  margin-block-end: 0em;
+  margin-right: 0px;
+  margin-left: 8px;  
+}
+
+a.insider:hover {
+  background: #d31803dd;
+}
+
+input.insider {
+  margin-block-start: 2em;
+  margin-block-end: 0em;
+  margin-right: 0px;
+  margin-left: 8px;  
+}
+
+
