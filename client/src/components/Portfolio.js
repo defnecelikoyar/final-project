@@ -7,7 +7,7 @@ function Portfolio() {
     const [isLoaded, setIsLoaded] = useState(false)
 
     useEffect(() => {
-        fetch(`/projects`)
+        fetch(`/api/projects`)
         .then(r => r.json())
         .then(projects => {
           setProjects(projects)

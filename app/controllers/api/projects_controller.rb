@@ -1,4 +1,4 @@
-class ProjectsController < ApplicationController
+class Api::ProjectsController < ApplicationController
     skip_before_action :authorized, only: [:show, :index]
 
     def index
