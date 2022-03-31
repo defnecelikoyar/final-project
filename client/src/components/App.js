@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import About from "./About";
 import Cover from "./Cover";
-import Blog from "./Blog";
+import LandingPage from "./LandingPage";
 import GuestBook from "./GuestBook";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
         <Routes>
             <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/home" element={<LandingPage />} />
             <Route path="/guestbook" element={<GuestBook />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/portfolio" element={<Portfolio />} />

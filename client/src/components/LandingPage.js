@@ -1,6 +1,6 @@
 import React from "react";
 
-function Blog() {
+function LandingPage() {
   document.body.style.backgroundColor = "#DEDED1";
   
   return (
@@ -11,4 +11,4 @@ function Blog() {
   );
 }
 
-export default Blog;
+export default LandingPage;
