@@ -1,15 +1,10 @@
 import React from 'react';
 
 function Resume() {
-    document.body.style.backgroundColor = "#DEDED1";
+    document.body.style.backgroundColor = "#0000ff";
 
     return (
         <div className="resume">
-            <div id="nav">
-                <a className="outsider" href="/">home</a>
-                <a className="outsider" href="/portfolio">projects</a>
-                <a className="outsider" href="/about">about</a>
-            </div> 
             <div className="jobs">
                 <h1 id="experience">experience</h1>
                 <div className="job">
@@ -83,7 +78,12 @@ function Resume() {
                     <li className="skill">Git</li>
                     <li className="skill">Heroku</li>
                 </ul>
-            </div>                                                  
+            </div>
+            <div id="resume-nav">
+                <a className="resume-link" href="/">home</a>
+                <a className="resume-link" href="/portfolio">projects</a>
+                <a className="resume-link" href="/about">about</a>
+            </div> 
         </div>
     )
 }

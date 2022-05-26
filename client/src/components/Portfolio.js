@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 function Portfolio() {
-    document.body.style.backgroundColor = "#9D8AE3";
+  document.body.style.backgroundColor = "#9d8ae3";
 
     const [projects, setProjects] = useState({})
     const [isLoaded, setIsLoaded] = useState(false)
@@ -16,7 +16,7 @@ function Portfolio() {
           //   setProject(p)
             setIsLoaded(true)
           })
-          })
+          }, [])
         // }, [])
     // }, [])
 
@@ -25,6 +25,7 @@ function Portfolio() {
 
   return (
     <div className="projects">
+      <h1 className="projects-title">projects</h1>
     <div className="project">
         <h1 id="project">{projects[0].name.toLowerCase()}</h1>
         <img id="project" src={projects[0].image} alt="project"></img>
@@ -39,11 +40,18 @@ function Portfolio() {
         <a className="project" href={projects[1].github}>github</a>
         <a className="project" href={projects[1].demo}>demo</a>
     </div>
-      <div id="nav">
-        <a className="outsider" href="/">home</a>
-        <a className="outsider" href="/resume">resume</a>
-        <a className="outsider" href="/about">about</a>
-        <a className="outsider" href="/contact">contact</a>
+    <div className="project">
+        <h1 id="project">{projects[2].name.toLowerCase()}</h1>
+        <img id="project" className="resize" src={projects[2].image} alt="project"></img>
+        <h3 id="project">{projects[2].description.toLowerCase()}</h3>
+        <a className="project" href={projects[2].github}>github</a>
+        <a className="project" href={projects[2].demo}>demo</a>
+    </div>
+      <div id="projects-nav">
+        <a className="projects-link" href="/">home</a>
+        <a className="projects-link" href="/resume">resume</a>
+        <a className="projects-link" href="/about">about</a>
+        <a className="projects-link" href="/contact">contact</a>
       </div> 
     </div>
   )

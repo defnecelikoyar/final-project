@@ -1,17 +1,21 @@
 import React from "react";
+import eye from "../new_evileye.png";
 
 function Cover() {
     document.body.style.backgroundColor = "#CCCC00";
+    console.log(eye);
 
   return (
     <div>
-        <a href="/home"><img id="evil-eye" alt="evil-eye" src="https://www.pinclipart.com/picdir/big/197-1977785_-kil-evil-eye-svg-clipart.png"></img></a>
-        <div id="nav">
+        <a className="eye-link" href="/home">
+          <img className="round-eye" alt="evil-eye" src={eye}></img>
+        </a>
+        {/* <div id="nav">
           <a className="outsider" href="/resume">resume</a>
           <a className="outsider" href="/portfolio">projects</a>
           <a className="outsider" href="/about">about</a>
           <a className="outsider" href="/contact">contact</a>
-        </div>
+        </div> */}
     </div>
   );
 }

@@ -1,12 +1,16 @@
 import React from "react";
 
 function LandingPage() {
-  document.body.style.backgroundColor = "#DEDED1";
+  document.body.style.backgroundColor = "#000000";
   
   return (
-    <div style={{color: "#8B0000"}} className="container">
-      <h2>where the magic happens</h2>
-      <a href="/">home</a>
+    <div className="landing-container">
+      <ul>
+        <li><a className="landing-link" href="/about">ABOUT</a></li>
+        <li><a className="landing-link" href="/resume">RESUME</a></li>  
+        <li><a className="landing-link" href="/portfolio">PROJECTS</a></li>
+        <li><a className="landing-link" href="/contact">CONTACT</a></li>
+      </ul>
     </div>
   );
 }

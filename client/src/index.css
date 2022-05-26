@@ -1,10 +1,11 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: Krona-One;
+  src: url(Krona_One/KronaOne-Regular.ttf)
 }
 
 code {
@@ -12,20 +13,144 @@ code {
     monospace;
 }
 
-img#evil-eye {
-  max-width: 50%;
+* {cursor: url(https://cur.cursors-4u.net/food/foo-1/foo76.cur), auto;}
+
+div.landing-container {
+  text-align: center;
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a {
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/link170.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/link167.gif"), auto;
+}
+
+a.landing-link {
+  font-family: Krona-One;
+  text-decoration: none;
+  /* color: rgb(236, 180, 250); */
+  color: rgb(17, 255, 0);
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+a.landing-link:hover {
+  /* color: rgb(225, 255, 0); */
+  /* color: rgb(17, 255, 0); */
+  color: rgb(0, 0, 255);
+  /* color: red; */
+}
+
+img.round-eye {
+  border-radius: 300px 300px 300px 300px;
+  width: 600px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  padding-top: 50px;
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/link170.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/link167.gif"), auto;
 }
 
-h3.about {
-  text-align: center;
+a.eye-link {
+    position:absolute;
+    margin-top: 2em;
+    border-radius:300px 300px 300px 300px;
+    background-color:#72CEE0;
+    width:600px;
+    height:600px;
+    left:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-div#about-nav {
-  /* display: flex; */
+h3.about-title {
+  text-align: left;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  width: 20%;
+  margin-bottom: 0em;
+  margin-top: 0.1em;
+}
+
+a.name-link {
+  text-decoration: none;
+  color: white;
+}
+
+a.name-link:hover {
+  color:rgb(0, 0, 255)
+}
+
+h3.about-description {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin-top: 0em;
+  color:rgb(0, 0, 255);
+  width: 80%;
+  margin-bottom: 0em;
+}
+
+h3.about-switch {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin-top: 0em;
+  color:rgb(255, 255, 57);
+  margin-top: 0em;
+  width: 80%;
+}
+
+a.in-my-code {
+  text-decoration: none;
+  color:rgb(255, 255, 57);
+}
+
+a.in-my-code:hover {
+  color:rgb(0, 0, 255);
+}
+
+a.artistic-training {
+  text-decoration: none;
+  color:rgb(255, 255, 57);
+}
+
+a.artistic-training:hover {
+  color:rgb(0, 0, 255);
+}
+
+h3.contact-me {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin-top: 0em;
+  color:rgb(236, 180, 250);
+  margin-top: 0em;
+  width: 80%;
+}
+
+a.about-link {
+  text-decoration: none;
+  color:rgb(236, 180, 250);
+}
+
+a.about-link:hover {
+  color:rgb(0, 0, 255);
+}
+
+h1.projects-title {
   text-align: center;
 }
 
@@ -111,6 +236,23 @@ a.project {
 
 a.project:hover {
   background: #da8cc9dd
+}
+
+div#projects-nav {
+  text-align: center;
+  font-size: 30px;
+}
+
+a.projects-link {
+  text-decoration: none;
+  margin-block-start: 2em;
+  margin-block-end: 0em;
+  margin-right: 0px;
+  margin-left: 8px;  
+}
+
+div.resume {
+  color: white;
 }
 
 div.jobs {
@@ -292,47 +434,22 @@ li.skill:hover {
   color:rgb(128, 68, 68);
 }
 
-div#nav {
+div#resume-nav {
   display: flex;
+  color: white;
   /* text-align: right; */
   /* margin-right: 10px; */
 }
 
-div.insider-nav {
-  display: flex;
-}
-
-div.outsider-nav {
-  display: flex;
-}
-
-a.outsider {
+a.resume-link {
+  text-decoration: none;
+  color: white;
   margin-block-start: 2em;
   margin-block-end: 0em;
   margin-right: 0px;
   margin-left: 8px;  
 }
 
-a.outsider:hover {
+a.resume-link:hover {
   background: #d31803dd;
 }
-
-a.insider {
-  margin-block-start: 2em;
-  margin-block-end: 0em;
-  margin-right: 0px;
-  margin-left: 8px;  
-}
-
-a.insider:hover {
-  background: #d31803dd;
-}
-
-input.insider {
-  margin-block-start: 2em;
-  margin-block-end: 0em;
-  margin-right: 0px;
-  margin-left: 8px;  
-}
-
-
