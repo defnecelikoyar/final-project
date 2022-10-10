@@ -47,6 +47,13 @@ function Portfolio() {
         <a className="project" href={projects[2].github}>github</a>
         <a className="project" href={projects[2].demo}>demo</a>
     </div>
+    <div className="project">
+        <h1 id="project">{projects[3].name.toLowerCase()}</h1>
+        <img id="project" className="resize" src={projects[3].image} alt="project"></img>
+        <h3 id="project">{projects[3].description.toLowerCase()}</h3>
+        <a className="project" href={projects[3].github}>github</a>
+        <a className="project" href={projects[3].demo}>demo</a>
+    </div>
       <div id="projects-nav">
         <a className="projects-link" href="/">home</a>
         <a className="projects-link" href="/resume">resume</a>
