@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-
+  # match '/contacts',    to: 'contacts#new'
+  # resources :contacts, only: [:new, :create]
+  
   namespace :api do
     resources :projects, only: [:index, :show]
       get '/projects', to:'projects#index'
