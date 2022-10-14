@@ -2,7 +2,8 @@ import React from "react";
 import eye from "../new_evileye.png";
 
 function Cover() {
-    document.body.style.backgroundColor = "#CCCC00";
+    // document.body.style.backgroundColor = "#CCCC00";
+    document.body.style.backgroundColor = "black";
     console.log(eye);
 
   return (
